@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "Copy Google Web Search History",
+    "version": "1.0",
+    "description": "Copy Google Web Search History to clipboard",
+    "browser_action": {
+        "default_popup": "index.html",
+        "default_icon": "icon.png"
+    },
+    "permissions": [
+        "clipboardRead",
+        "history"
+    ],
+    "icons": {
+        "128": "icon.png"
+    }
+}
